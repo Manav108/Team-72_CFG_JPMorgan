@@ -1,0 +1,15 @@
+.login1{
+    background-color: #9E9EE8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#cont2{
+    min-height: 300px;
+}
+.box{
+    width:500px;
+    align-items: center;
+    display: block;
+    margin: auto;
+}

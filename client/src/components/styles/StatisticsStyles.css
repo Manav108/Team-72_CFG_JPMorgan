@@ -1,0 +1,10 @@
+.chart-container {
+    width: 50%;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .container {
+    text-align: center;
+  }

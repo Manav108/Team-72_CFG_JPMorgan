@@ -1,0 +1,20 @@
+.sign{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+     url("https://images.pexels.com/photos/3127880/pexels-photo-3127880.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#cont{
+    min-height: 300px;
+}
+.box2{
+    
+    width:500px;
+    align-items: center;
+    display: block;
+    margin: auto;
+}

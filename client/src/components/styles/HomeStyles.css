@@ -1,0 +1,112 @@
+.headerContainer {
+    width: auto;
+
+    padding-left: 2rem;
+}
+
+.home {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    color: rgb(229, 255, 79);
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home .headerContainer p {
+    margin-top: 10px;
+    padding: 0;
+    color: rgb(229, 255, 79);
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.home .headerContainer button {
+    color: black;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(229, 255, 79);
+    border-radius: 10%;
+    cursor: pointer;
+    height: 50px;
+    width: 130px;
+    font-size: 15px
+}
+
+.headerContainer button:hover {
+    background-color: rgb(177, 202, 32);
+    transition: 0.3s ease-in-out;
+}
+
+@media only screen and(max-width: 600px) {
+    .home {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headerContainer {
+        margin-left: 0;
+        border-radius: 10px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: black;
+        background-color: rgb(177, 202, 32);
+    }
+
+    .headerContainer h1 {
+        color: white;
+        font-size: 40px;
+        height: 30px;
+        margin: 15px 0px;
+        color: white;
+    }
+
+}
+
+.App {
+    text-align: center;
+}
+
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.event-card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.event-card.hovered {
+    transform: scale(1.05);
+}
+
+.event-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.comment-section {
+    margin-top: 10px;
+}
